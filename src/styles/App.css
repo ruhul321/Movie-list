@@ -1,0 +1,60 @@
+/* App.css */
+body {
+  font-family: "Titillium Web", sans-serif;
+  background-color: #171717;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #171717;
+  padding: 10px 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.search-bar {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.search-bar::placeholder {
+  color: #888888;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+main {
+  padding-top: 60px;
+  flex: 1;
+  overflow-y: auto;
+}
+a {
+  text-decoration: none;
+}
