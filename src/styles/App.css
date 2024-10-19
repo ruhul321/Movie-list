@@ -58,3 +58,18 @@ main {
 a {
   text-decoration: none;
 }
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 0; /* Hides the scrollbar */
+  background: transparent; /* Optional: Makes the scrollbar background transparent */
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: none; /* Hides the scrollbar */
+}
+
+/* For all other browsers */
+body {
+  overflow: auto; /* Ensure that scrolling is enabled */
+}
